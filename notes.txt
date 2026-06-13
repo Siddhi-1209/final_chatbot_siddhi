@@ -1,0 +1,83 @@
+WHAT IS ARTIFICIAL INTELLIGENCE?
+
+Artificial Intelligence (AI) is the simulation of human intelligence in machines that can think, learn, and make decisions.
+
+WHAT IS MACHINE LEARNING?
+
+Machine Learning is a subset of AI that enables computers to learn from data without being explicitly programmed.
+
+WHAT IS DEEP LEARNING?
+
+Deep Learning is a branch of Machine Learning that uses neural networks with multiple layers to learn complex patterns.
+
+WHAT IS CLASSIFICATION?
+
+Classification is a supervised learning technique used to predict categorical labels such as spam/not spam.
+
+WHAT IS REGRESSION?
+
+Regression is a supervised learning technique used to predict continuous values such as house prices.
+
+WHAT IS CLUSTERING?
+
+Clustering is an unsupervised learning technique that groups similar data points together.
+
+WHAT IS SUPERVISED LEARNING?
+
+Supervised Learning is a type of machine learning where models are trained using labeled data.
+
+WHAT IS UNSUPERVISED LEARNING?
+
+Unsupervised Learning is a type of machine learning where models discover patterns from unlabeled data.
+
+WHAT IS A NEURAL NETWORK?
+
+A Neural Network is a computational model inspired by the human brain that consists of interconnected nodes called neurons.
+
+WHAT IS DATA SCIENCE?
+
+Data Science is the field of extracting meaningful insights and knowledge from data using scientific methods and algorithms.
+
+WHAT IS NATURAL LANGUAGE PROCESSING?
+
+Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language.
+
+WHAT IS COMPUTER VISION?
+
+Computer Vision enables machines to understand and analyze images and videos.
+
+WHAT IS RAG?
+
+Retrieval Augmented Generation (RAG) combines information retrieval with large language models to provide accurate answers from documents.
+
+WHAT IS FAISS?
+
+FAISS is a vector database library developed by Meta that enables efficient similarity search among embeddings.
+
+WHAT IS AN EMBEDDING?
+
+An Embedding is a numerical representation of text that captures its semantic meaning.
+
+WHAT IS CHUNKING?
+
+Chunking is the process of splitting large documents into smaller pieces before generating embeddings.
+
+WHAT IS A VECTOR DATABASE?
+
+A Vector Database stores embeddings and allows semantic similarity searches.
+
+WHAT IS STREAMLIT?
+
+Streamlit is a Python framework used to build interactive web applications for machine learning and AI projects.
+
+WHAT IS GEMINI?
+
+Gemini is Google's family of generative AI models capable of understanding and generating text, images, and code.
+
+WHAT IS LANGCHAIN?
+
+LangChain is a framework used to build applications powered by large language models.
+
+WHAT IS PROMPT ENGINEERING?
+
+Prompt Engineering is the process of designing effective prompts to obtain better responses from AI models.
