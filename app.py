@@ -150,7 +150,7 @@ def get_answer(query):
         return best_doc.page_content
 
     # Wikipedia fallback
-    wiki_answer = get_wiki_data(query)
+    wiki_answer =wiki_search(query)
 
     if wiki_answer and wiki_answer != "No Wikipedia data found.":
         return wiki_answer
@@ -161,7 +161,7 @@ def get_answer(query):
 
 
 
-st.title("Smart AI Study Assistant")
+
 
 user_query = st.text_input("Ask your question...")
 
