@@ -135,7 +135,7 @@ def chatbot(query):
 
     response = model.generate_content(query)
 
-   return response.text
+    return response.text
 def get_answer(query):
     return "Test Working"
     # RAG Search
