@@ -123,17 +123,17 @@ def chatbot(query):
 
         return response.text
 
-   wiki_answer = wiki_search(query)
+    wiki_answer = wiki_search(query)
 
-   if wiki_answer:
-       return wiki_answer
+    if wiki_answer:
+        return wiki_answer
 
-   web_answer = search_web(query)
+    web_answer = search_web(query)
 
-   if web_answer and web_answer != "No web result found":
-       return web_answer
+    if web_answer and web_answer != "No web result found":
+        return web_answer
 
-   response = model.generate_content(query)
+    response = model.generate_content(query)
 
    return response.text
 def get_answer(query):
