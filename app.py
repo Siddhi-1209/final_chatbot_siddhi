@@ -125,8 +125,11 @@ def chatbot(query):
 
     wiki_answer = wiki_search(query)
 
-    if wiki_answer:
-        return wiki_answer
+   if wiki_answer:
+    response = model.generate_content(
+        f"Explain this in detail:\n\n{wiki_answer}"
+    )
+    return response.text
 
     web_answer = search_web(query)
 
