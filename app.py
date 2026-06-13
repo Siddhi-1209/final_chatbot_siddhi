@@ -71,8 +71,7 @@ def wiki_search(query):
             summary
         )
 
-        return " ".join(sentences[:15])
-
+        return summary
     return None
 
 # ---------------- MEMORY ----------------
