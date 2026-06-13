@@ -166,5 +166,5 @@ st.title("Smart AI Study Assistant")
 user_query = st.text_input("Ask your question...")
 
 if user_query:
-    answer = "Test working"
+    answer = get_answer(user_query)
     st.write("Answer:", answer)
