@@ -138,7 +138,7 @@ def chatbot(query):
 
     return response.text
 def get_answer(query):
-    return "Test Working"
+   
     # RAG Search
     docs = vector_store.similarity_search_with_score(query, k=1)
 
