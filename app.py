@@ -1,6 +1,7 @@
+
+import streamlit as st
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-import streamlit as st
 
 st.title("Siddhi's Smart AI Study Assistant")
 import streamlit as st
