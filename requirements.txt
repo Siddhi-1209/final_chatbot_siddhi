@@ -6,3 +6,4 @@ langchain-google-genai
 faiss-cpu
 wikipedia-api
 regex
+google-search-results
