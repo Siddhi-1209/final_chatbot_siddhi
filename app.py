@@ -17,7 +17,7 @@ from langchain_community.vectorstores import FAISS
 # ---------------- API KEY ----------------
 
 API_KEY =st.secrets["API_KEY"]
-
+SERPAPI_KEY=st.secrets["SERPAPI_KEY"]
 genai.configure(api_key=API_KEY)
 
 model = genai.GenerativeModel("gemini-2.5-flash")
